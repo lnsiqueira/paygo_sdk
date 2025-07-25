@@ -73,7 +73,8 @@ class TransacaoRequisicaoVenda extends IRequisicao {
 
     urlVenda += "operation=${obterOperacao.requisicaoOperationString}";
     urlVenda += "&transactionId=$obterIdTransacao";
-    urlVenda += "&amount=${((amount * 100).ceil()).toInt().toString()}";
+    //urlVenda += "&amount=${((amount * 100).ceil()).toInt().toString()}";
+    urlVenda += "&amount=${((amount * 100)).toInt().toString()}";
     urlVenda += "&currencyCode=${currencyCode.currencyCodeString}";
 
     if (boardingTax != null) {
