@@ -8,7 +8,6 @@ class ApplicationStyle {
     primaryColorLight: ApplicationColors.paygoYellow,
     colorScheme: ColorScheme.fromSwatch(
       primarySwatch: ApplicationColors.paygoYellow,
-      primaryColorDark: ApplicationColors.paygoDark,
       accentColor: ApplicationColors.paygoDark,
     ),
     scaffoldBackgroundColor: Colors.white,
